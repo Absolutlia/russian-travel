@@ -1,0 +1,10 @@
+.place__website_link {
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+    color: #ffffff;
+    align-items: baseline;
+    border: 1px solid red;
+
+}
+/*Facebook  и проч надписи*/

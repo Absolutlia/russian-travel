@@ -1,0 +1,18 @@
+.place__paragraphs {
+    outline: 1px solid red;
+    grid-area: paragrahs;
+    padding: 0;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .place__paragraphs {}
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraphs {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+}
