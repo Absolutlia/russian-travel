@@ -1,5 +1,6 @@
 .cover__subtitle {
-    position: relative; /* для прозрачности */
+    position: relative;
+    /* для прозрачности */
     width: 360px;
     margin: 0;
     text-align: center;
@@ -9,18 +10,6 @@
     line-height: 22px;
     color: #ffffff;
     text-decoration: none;
-}
-
-@media screen and (max-width: 1279px) {
-    .cover__subtitle {
-        padding-top: 48px;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .cover__subtitle {
-        padding-top: 48px;
-    }
 }
 
 @media screen and (max-width: 767px) {

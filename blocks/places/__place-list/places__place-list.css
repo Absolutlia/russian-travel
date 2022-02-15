@@ -4,20 +4,3 @@
     list-style: none;
 }
 
-@media screen and (max-width 1279px) {
-    .places__place-list {
-        width: 76.875vw;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .places__place-list {
-        width: 
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .places__place-list {
-        width: 
-    }
-}

@@ -1,8 +1,6 @@
 .cover__background {
     margin: 0 auto;
     background-image: url(../../../images/railways.jpg);
-    height: 100%;
-    min-height: 740px;
     width: 100%;
 }
 
@@ -24,21 +22,4 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1279px) {
-    .cover__background {
-        min-height: 640px;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .cover__background {
-        min-height: 480px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .cover__background {
-        min-height: 200px;
-    }
-}
 
