@@ -1,8 +1,8 @@
 .lead__title {
     margin: 0 auto;
-    padding: 0;
+    padding-top: 0;
     max-width: 720px;
-    min-height: 200px;
+    height: 200px;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -11,17 +11,15 @@
     -webkit-font-smoothing: antialiased;
 }
 
-@media screen (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .lead__title {
         padding-top: 0 24px;
+        height: 88px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .lead__title {
-        padding-top: 48px;
     }
-}
 
 @media screen and (max-width: 767px) {
     .lead__title {

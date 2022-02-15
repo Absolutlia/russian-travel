@@ -10,7 +10,11 @@
     text-align: left;
 }
 
-
+@media screen and (max-width: 768px) {
+    .intro__title {
+        
+    }
+}
 
 @media screen and (max-width: 768px) {
     .intro__title {
@@ -23,6 +27,5 @@
         width: 90vw;
         font-size: 32px;
         line-height: 35px;
-
     }
 }

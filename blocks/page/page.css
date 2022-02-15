@@ -8,4 +8,5 @@
     min-width: 320px;
     width: 100%;
     overflow: hidden;
+    box-sizing: border-box;
 }

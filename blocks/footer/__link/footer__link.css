@@ -1,4 +1,5 @@
 .footer__link {
+    margin-right: 18px;
     list-style-type: none;
     color: #FFFFFF;
     text-decoration: none;
@@ -14,4 +15,14 @@
 .footer__link {
     font-size: 24px;
     line-height: 1;
+}
+
+.footer__links-item {
+    margin-right: 18px;
+}
+
+@media and screen and (max-width: 767px) {
+    .footer__links-item {
+        margin-right: 0;
+    }
 }

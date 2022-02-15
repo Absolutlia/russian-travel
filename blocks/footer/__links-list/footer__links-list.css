@@ -1,4 +1,5 @@
 .footer__links-list {
+    outline: 1px solid violet;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -6,11 +7,23 @@
     max-width: 1184px;
 }
 
+@media screen and (max-width: 1279px) {
+    .footer__links-list {
+        max-width: 928px;
+    }
+}
+
+@media and screen and (max-width: 1023px) {
+    .footer__links-list {
+        max-width: 720px;
+    }
+}
+
 @media and screen and (max-width: 767px) {
     .footer__links-list {
-        flex-wrap: wrap;
+        max-width: 186px;
+        min-height: 284px;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: left;
+        flex-wrap: wrap;
     }
 }
