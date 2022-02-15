@@ -9,5 +9,6 @@
     .place__paragraphs {
         font-size: 40px;
         line-height: 1.1;
+        padding-right: 16px;
     }
 }
