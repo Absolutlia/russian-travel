@@ -2,7 +2,7 @@
     margin: 0 auto 32px;
     padding-top: 245px;
     position: relative;
-    width: 560px;
+    max-width: 560px;
     height: 152px;
     font-style: normal;
     font-weight: 900;
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 767px) {
     .cover__title {
-        width: 255px;
+        max-width: 255px;
         height: 70px;
         padding-top: 33px;
         margin: 0 auto 16px;

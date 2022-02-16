@@ -2,6 +2,7 @@
     margin: 0 auto;
     background-image: url(../../../images/railways.jpg);
     width: 100%;
+    box-sizing: border-box;
 }
 
 .cover__background:before {
