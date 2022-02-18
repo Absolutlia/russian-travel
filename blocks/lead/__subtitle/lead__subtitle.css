@@ -29,6 +29,7 @@
     .lead__subtitle {
         padding-top: 16px;
         padding-bottom: 40px;
+        width: 90vw;
         font-size: 16px;
         line-height: 1.25;
     }
