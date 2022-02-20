@@ -17,13 +17,13 @@
 @media screen and (max-width: 1023px) {
     .places {
         margin: 88px 24px 0;
-        min-width: 720px;
+        max-width: 720px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .places {
         margin: 64px auto;
-        min-width: 320px;
+        max-width: 100%;
     }
 }
